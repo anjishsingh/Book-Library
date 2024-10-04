@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="main-page">
+        <div class="navbar">
+            <div class="logo">
+                <h1>Book  <span class="lib"> Library</span></h1>
+            </div>
+            <div class="navbar-vertical" id="navt">
+                <nav class="nav">
+                    <ul class="ullist">
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="Catageory">Catageory</a></li>
+                        <li><a href="Borrow">Borrow</a></li>
+                        <li><a href="About Us">About Us</a></li>
+                    </ul>
+
+                </nav>
+                <button class="btn">Add Book</button>
+            </div>
+        </div>
+        <div class="menu-img" onclick="toggle()" id="mi"><img src="images/download.jpeg"></div>
+        <div class="mainrow">
+
+            <div class="main-content">
+                <h2>“Make it a rule never to give a child a book you would not read yourself.”</h2>
+                <button class="searchInput">Live and learn and pass it on.</button>
+
+                <p>Popular Books: <a href="#">Programming</a> , <a href="#">Motivational</a> , <a href="#">Designing</a>
+                    , <a href="#">Comics</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="latest-added">
+        <div class="heading">
+            <h1>All Books</h1>
+            <input type="text" class="searchInput" placeholder="Search Book Name" id="myInput">
+
+        </div>
+
+
+        <div class="latest-row" id="booknamesearch">
+            <div class="latest-col">
+                <div class="limg"><img src="images/C++.jpg"></div>
+                <div class="info">
+                    <h3>Learning The C++</h3>
+                    <p>Learn C++ is a most used in the game development</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/python.jpeg"></div>
+                <div class="info">
+                    <h3>Python Programming</h3>
+                    <p>Python is a programming language that lets you work quickly and integrate systems more effectively.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/java.jpg"></div>
+                <div class="info">
+                    <h3>Java</h3>
+                    <p>Java is used to develop mobile apps, web apps, desktop apps, games.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/PHP.jpg"></div>
+                <div class="info">
+                    <h3>PHP</h3>
+                    <p>PHP is a server scripting language.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+
+            <div class="latest-col">
+                <div class="limg"><img src="images/data structures.jpeg"></div>
+                <div class="info">
+                    <h3>Data Structures</h3>
+                    <p>DSA is applied in problem solving and learn to write efficient code.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/data communication.jpeg"></div>
+                <div class="info">
+                    <h3>Data Communication</h3>
+                    <p>Exchange of data between two network.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/cyber security.jpeg"></div>
+                <div class="info">
+                    <h3>Cyber security</h3>
+                    <p>Cybersecurity is the protection to defend from malicious attacks by hackers, spammers, and cybercriminals.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/business analyst.webp"></div>
+                <div class="info">
+                    <h3>Business Analyst</h3>
+                    <p>Title: Requirements Gathering for the New Business Analyst.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/data science.jpeg"></div>
+                <div class="info">
+                    <h3>Data Science</h3>
+                    <p>Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI) and machine learning.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/m power of mind.jpg"></div>
+                <div class="info">
+                    <h3>Power of Mind Control</h3>
+                    <p>The power of mind control is the ability to control your thoughts, feelings, and impulses to achieve your goals.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/m focus on.jpg"></div>
+                <div class="info">
+                    <h3>Focus on Destiny</h3>
+                    <p>the best stats are Resilience for PvE, Recovery for PvP, and Discipline for all game modes.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+            <div class="latest-col">
+                <div class="limg"><img src="images/d how design makes.jpg"></div>
+                <div class="info">
+                    <h3>How design makes us to think</h3>
+                    <p>How Design Makes Us Think is an inspirational resource for beginning designers or graphic design firms.</p>
+                    <button class="btnn">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerdiv">
+            <hr>
+            <h5>copyright © 2024 anjish singh</h5>
+            <h5> <span>&#9742</span> 6205136934</h5>
+            <h5><span>&#9993</span> anjishsingh27577@gmail.com</h5>
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
